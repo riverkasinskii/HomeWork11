@@ -13,9 +13,16 @@
         /// <param name="Patronymic"></param>
         /// <param name="PhoneNumber"></param>
         /// <param name="Passport"></param>
-        public Client(int ID, string Surname, string Name, string Patronymic,
-            string PhoneNumber, string Passport, DateTime RecordChange, string DataHasBeenChanged,
-            string ChangeType, string WhoChangedData)
+        public Client(int ID,
+            string Surname,
+            string Name,
+            string Patronymic,
+            string PhoneNumber,
+            string Passport,
+            DateTime RecordChange,
+            string DataHasBeenChanged,
+            string ChangeType,
+            string WhoChangedData)
         {
             this.ID = ID;
             this.Surname = Surname;
